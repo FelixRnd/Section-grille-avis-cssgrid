@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(210, 46%, 95%);
+    background-color: hsl(214, 17%, 92%);
     margin: 0;
     padding: 0;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -11,8 +11,8 @@ body {
 }
 section {
     display: grid;
-    grid-template-columns: repeat(4, 285px);
-    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 240px);
     gap: 25px;
 }
 
@@ -21,7 +21,7 @@ article {
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0,0, 0.1);
+    box-shadow: 25px 25px 60px rgba(88, 88, 88, 0.2);
 }
 
 .header {
@@ -32,10 +32,11 @@ article {
 
 img {
     border-radius: 50%;
+    width: 40px;
 }
 
 h1 { 
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 15px;
     color: white;
     margin-bottom: 3%;
